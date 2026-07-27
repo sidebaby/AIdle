@@ -1,0 +1,1 @@
+// NUnit tests skeleton for Wallet Add/Spend

@@ -1,0 +1,1 @@
+namespace CashEngine.Save{public class SaveManager{private readonly ISaveProvider p; public SaveManager(ISaveProvider provider){p=provider;} public void Save(string k,string v)=>p.Save(k,v); public string Load(string k,string d="")=>p.Load(k,d); }

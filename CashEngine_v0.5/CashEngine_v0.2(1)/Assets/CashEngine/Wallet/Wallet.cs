@@ -1,0 +1,1 @@
+using System;namespace CashEngine.Wallet{public class Wallet{public decimal Balance{get;private set;} public event Action<decimal> BalanceChanged; public void Add(decimal a){if(a<=0)return;Balance+=a;BalanceChanged?.Invoke(Balance);} public bool Spend(decimal a){if(a<=0||a>Balance)return false;Balance-=a;BalanceChanged?.Invoke(Balance);return true;}}}

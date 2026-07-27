@@ -1,0 +1,1 @@
+using UnityEngine;namespace CashEngine.Core{public class Logger:IService{public void Info(string m)=>Debug.Log($"[CashEngine] {m}");}}}

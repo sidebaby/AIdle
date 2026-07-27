@@ -1,0 +1,1 @@
+namespace CashEngine.Save{public interface ISaveProvider{void Save(string key,string json);string Load(string key);bool Has(string key);}}

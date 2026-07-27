@@ -1,0 +1,1 @@
+using CashEngine.Save; namespace CashEngine.Settings{public class SettingsManager{SaveManager s; public SettingsManager(SaveManager sm){s=sm;} public void Set(string k,string v)=>s.Save(k,v); public string Get(string k,string d="")=>s.Load(k,d);} }

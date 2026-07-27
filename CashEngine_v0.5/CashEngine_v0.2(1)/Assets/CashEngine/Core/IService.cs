@@ -1,0 +1,1 @@
+namespace CashEngine.Core{public interface IService{}}}

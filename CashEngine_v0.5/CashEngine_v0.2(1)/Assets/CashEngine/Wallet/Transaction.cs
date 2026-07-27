@@ -1,0 +1,1 @@
+namespace CashEngine.Wallet { public record Transaction(Currency Currency, decimal Amount); }

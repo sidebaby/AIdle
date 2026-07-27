@@ -1,0 +1,1 @@
+namespace CashEngine.Wallet { public enum Currency { Coins,Gems } }

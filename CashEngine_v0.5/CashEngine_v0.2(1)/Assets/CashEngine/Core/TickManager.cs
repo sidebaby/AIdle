@@ -1,0 +1,1 @@
+using UnityEngine;namespace CashEngine.Core{public class TickManager:MonoBehaviour{public float Delta=>Time.deltaTime;}}
